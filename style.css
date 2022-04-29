@@ -1,0 +1,136 @@
+.choice-grid div{
+    display: inline-block;
+    box-sizing: content-box;
+    width: 32.5%;
+    border: solid white 1px;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+}
+
+.checkbox{
+    top: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+img{
+    height: 210px;
+    width: 210px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+button{
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+    background-color: #cecece;
+    font-size: 25px;
+}
+#reset{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#reset:hover{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #e0e0e0;
+}
+
+
+@media(min-width: 701px){
+    body{
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px){
+    body{
+        width: 95%;
+    }
+    header div span{
+        display: none;
+    }
+}
+
+
+@media (max-width: 500px){
+    
+   .choice-grid div {
+       width: 49%;
+
+   }
+}
+
+div.coloresfondo{
+    background-color: #cfe3ff;
+}
+
+.overlay{
+    opacity:0.6;
+}
+
+.fine_test{
+    display: none;
+}
+#restart{
+    margin: 20px 20px 20px 20px;
+}
+
+section h2{
+    margin-bottom: 0px;
+}
+section p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+footer{
+    background-color: rgb(0, 2, 0);
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#spazio_40px{
+    margin-top: 40px;
+}
+
+#library{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#library .vec{
+    margin: 10px;
+    border: 1px soldi, slategray;
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#library img{
+    max-width: 100%;
+}
+#album-view {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+#album-view .album {
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #album-view img {
+    max-width: 100%;
+    margin-left: 0px;
+  }
